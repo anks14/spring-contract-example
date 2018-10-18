@@ -3,8 +3,6 @@ request:
   method: GET
   url: /testSchema?shouldPassValidation=true
 
-  headers:
-    Content-Type: application/json
 response:
   status: 200
   body:

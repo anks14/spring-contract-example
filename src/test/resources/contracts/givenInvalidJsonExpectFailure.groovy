@@ -12,8 +12,6 @@ Contract.make {
                 parameter('shouldPassValidation', false)
             }
         }
-        headers { contentType("application/json.*") }
-
 
     }
     response {

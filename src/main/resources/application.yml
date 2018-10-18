@@ -1,0 +1,13 @@
+server:
+  port: 4444
+spring:
+  application:
+    name: spring-contract-example
+contractProducerService:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8081
+stubrunner:
+  idsToServiceIds:
+    spring-cloud-contract-producer: contractProducerService

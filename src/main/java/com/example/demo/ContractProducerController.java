@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ContractProducerController {
 
     @Autowired
-    private ContractProducerService contractProducerService;
+    private ContractProducerServiceImpl contractProducerService;
 
 
     @GetMapping("/testSchema")

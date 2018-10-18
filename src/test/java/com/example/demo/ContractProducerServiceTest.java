@@ -19,7 +19,7 @@ public class ContractProducerServiceTest {
 
 
     @Autowired
-    private ContractProducerService contractProducerService;
+    private ContractProducerServiceImpl contractProducerService;
 
 
 
