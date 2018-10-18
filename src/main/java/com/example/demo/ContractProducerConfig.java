@@ -11,7 +11,7 @@ import org.springframework.core.io.ClassPathResource;
 import java.io.File;
 
 @Configuration
-public class ContractConfig {
+public class ContractProducerConfig {
 
     @Bean
     public JsonSchema getJsonSchema() {
