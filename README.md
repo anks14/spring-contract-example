@@ -19,5 +19,5 @@ Contract definitions can be found at src/main/test/contracts
 Based on contracts above tests get auto-generated (cool isnt it :) ). It installs a wiremock stub to local m2. So if mvn 
 package fails on first try. Run mvn install with skip test once and then try!!
 
-
-
+All producer classes and tests simulate a producer exposing an api and all consumer classes do the consumer. Feign and ribbon
+servers have been configured to simulate consumer behavior!
